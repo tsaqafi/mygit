@@ -4,7 +4,7 @@
 import random
 num = random.randint(1,9)
 trial = 0
-User = input(print("type 'exit' to quit or play to play"))
+User = input(print("type 'exit' to quit or 'play' to play"))
 guess_str = input(print("Guess a number between 1 to 9 "))
 guess_int = int(guess_str)
 
